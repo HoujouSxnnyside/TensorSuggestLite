@@ -1,0 +1,292 @@
+{
+  "MOVIMIENTO": {
+    "respuestas": [
+      { "respuesta": "Movimiento no reportado" },
+      { "respuesta": "Movimiento no avisado" }
+    ],
+    "sinonimos": ["Desplazamiento", "Traslado"]
+  },
+  "VEHICULO": {
+    "respuestas": [
+      { "respuesta": "Vehiculo en mal estado" },
+      { "respuesta": "Vehiculo sin placas" },
+      { "respuesta": "Vehiculo danado" }
+    ],
+    "sinonimos": ["Auto", "Camion", "Transporte"]
+  },
+  "CHOFER": {
+    "respuestas": [
+      { "respuesta": "Chofer no coincide" },
+      { "respuesta": "Chofer no registrado" },
+      { "respuesta": "Chofer no autorizado" }
+    ],
+    "sinonimos": ["Conductor", "Piloto", "Operador"]
+  },
+  "CONDICION": {
+    "respuestas": [
+      { "respuesta": "Mercancia danada" },
+      { "respuesta": "Mercancia no coincide" }
+    ],
+    "sinonimos": ["Estado", "Contenido", "Mercancia", "Carga", "Condicion"]
+  },
+  "UBICACION": {
+    "respuestas": [
+      { "respuesta": "Ubicacion no coincide" },
+      { "respuesta": "Ubicacion no registrada" }
+    ],
+    "sinonimos": ["Origen", "Destino", "Procedencia"]
+  },
+  "AUTORIZA": {
+    "respuestas": [
+      { "respuesta": "Supervisor no informado" },
+      { "respuesta": "Supervisor no autorizo" }
+    ],
+    "sinonimos": ["Autorizacion", "Permiso"]
+  },
+  "TRANSPORTISTA": {
+    "respuestas": [
+      { "respuesta": "Transportista no coincide" },
+      { "respuesta": "Transportista no registrado" },
+      { "respuesta": "Transportista no autorizado" }
+    ],
+    "sinonimos": ["Empresa", "Compania"]
+  },
+  "LICENCIA": {
+    "respuestas": [
+      { "respuesta": "Licencia no visible" },
+      { "respuesta": "Licencia no coincide" },
+      { "respuesta": "Licencia no registrada" }
+    ],
+    "sinonimos": ["Licencia de Conducir", "Numero de Licencia", "Numero de Licencia"]
+  },
+  "TIPO DE LICENCIA": {
+    "respuestas": [
+      { "respuesta": "Tipo de licencia no visible" }
+    ],
+    "sinonimos": ["Tipo de Licencia"]
+  },
+  "VIGENCIA": {
+    "respuestas": [
+      { "respuesta": "Vigencia de licencia no visible" },
+      { "respuesta": "Vigencia de licencia vencida" }
+    ],
+    "sinonimos": ["Fecha de Vencimiento", "Vigencia de Licencia"]
+  },
+  "PLACAS": {
+    "respuestas": [
+      { "respuesta": "Placas no visibles" },
+      { "respuesta": "Placas no coinciden" },
+      { "respuesta": "No hay placas" }
+    ],
+    "sinonimos": ["Tractor Placas", "Caja Placas"]
+  },
+  "NUMEROS": {
+    "respuestas": [
+      { "respuesta": "Numero no visible" },
+      { "respuesta": "Numero no coincide" },
+      { "respuesta": "No hay numero" }
+    ],
+    "sinonimos": ["Tractor Num", "Caja Num"]
+  },
+  "DOCUMENTO": {
+    "respuestas": [
+      { "respuesta": "Documento falsificado" },
+      { "respuesta": "Documento faltante" },
+      { "respuesta": "Documento editado" },
+      { "respuesta": "Documento maltratado" }
+    ],
+    "sinonimos": ["Factura", "Comprobante", "Recibo", "Guia", "Poliza", "Hoja de embarque"]
+  },
+  "SELLO": {
+    "respuestas": [
+      { "respuesta": "Sello de seguridad roto" },
+      { "respuesta": "Sello de seguridad faltante" },
+      { "respuesta": "Sello de seguridad diferente al registrado" }
+    ],
+    "sinonimos": ["Sello", "Sello de seguridad"]
+  },
+  "DEFENSA": {
+    "respuestas": [
+      { "respuesta": "Defensa delantera danada" },
+      { "respuesta": "Defensa trasera danada" },
+      { "respuesta": "Defensa con articulo sospechoso oculto" },
+      { "respuesta": "Defensa con marcas de arreglos" },
+      { "respuesta": "Defensa con alteraciones" },
+      { "respuesta": "Defensa con doble fondo" }
+    ],
+    "sinonimos": ["Parachoques", "Defensa delantera", "Defensa trasera"]
+  },
+  "LLANTAS": {
+    "respuestas": [
+      { "respuesta": "Llanta danada" },
+      { "respuesta": "Llanta con carga sospechosa" },
+      { "respuesta": "Llanta no rebota con el mazo" },
+      { "respuesta": "Llanta ponchada" }
+    ],
+    "sinonimos": ["Neumaticos", "Ruedas", "Llanta"]
+  },
+  "PISO": {
+    "respuestas": [
+      { "respuesta": "Piso disparejo" },
+      { "respuesta": "Piso tiene tornillos que no coinciden con los originales" },
+      { "respuesta": "Piso con escalon en la entrada" },
+      { "respuesta": "Piso con inclinaciones o pendientes" }
+    ],
+    "sinonimos": ["Suelo", "Piso del vehiculo"]
+  },
+  "TANQUE DE GASOLINA": {
+    "respuestas": [
+      { "respuesta": "Tanque con parches de soladura" },
+      { "respuesta": "Tanque con bondo" },
+      { "respuesta": "Tanque con silicon" },
+      { "respuesta": "Tanque con resanes" },
+      { "respuesta": "Tanque con fugas" },
+      { "respuesta": "Tanque en mal estado" }
+    ],
+    "sinonimos": ["Deposito de gasolina", "Tanque de combustible", "Deposito de combustible"]
+  },
+  "CABINA Y COMPARTIMENTOS": {
+    "respuestas": [
+      { "respuesta": "Cabina con modificaciones en su interior" },
+      { "respuesta": "Cabina con persona no autorizada" },
+      { "respuesta": "Cabina con animales" },
+      { "respuesta": "Cabina con plagas o desechos organicos" }
+    ],
+    "sinonimos": ["Cabina", "Compartimentos", "Cabina interior", "Cabina exterior"]
+  },
+  "QUINTA RUEDA": {
+    "respuestas": [
+      { "respuesta": "Quinta rueda danada" },
+      { "respuesta": "Quinta rueda con doble placa" },
+      { "respuesta": "Quinta rueda con dificultad al enganchar" }
+    ],
+    "sinonimos": ["Enganche", "Quinta rueda"]
+  },
+  "EJES DE TRANSMISION": {
+    "respuestas": [
+      { "respuesta": "Eje con soldadura" },
+      { "respuesta": "Eje con parches" },
+      { "respuesta": "Eje con resanes" },
+      { "respuesta": "Eje con bondo" },
+      { "respuesta": "Eje con silicon" },
+      { "respuesta": "Eje con bolsas de suspencion en mal estado" },
+      { "respuesta": "Eje en mal estado" }
+    ],
+    "sinonimos": ["Ejes", "Ejes de transmision", "Eje de traccion"]
+  },
+  "TUBOS DE ESCAPE": {
+    "respuestas": [
+      { "respuesta": "Tubo de escape con paquete sospechoso" },
+      { "respuesta": "Tubo de escape con alteraciones" },
+      { "respuesta": "Tubo de escape tapado" },
+      { "respuesta": "Tubo de escape frio despues de largo recorrido" }
+    ],
+    "sinonimos": ["Escape", "Tubo de escape", "Sistema de escape"]
+  },
+  "MOTOR": {
+    "respuestas": [
+      { "respuesta": "Motor con articulo sospechoso" },
+      { "respuesta": "Motor con arreglos" }
+    ],
+    "sinonimos": ["Motor", "Maquina"]
+  },
+  "BASE DE REMOLQUE": {
+    "respuestas": [
+      { "respuesta": "Base de remolque con doble fondo" },
+      { "respuesta": "Base de remolque con marcas de arreglos" },
+      { "respuesta": "Base de remolque con alteraciones" },
+      { "respuesta": "Base de remolque con articulo sospechoso oculto" }
+    ],
+    "sinonimos": ["Base de enganche", "Base de remolque"]
+  },
+  "PUERTAS EXTERIORES E INTERIORES": {
+    "respuestas": [
+      { "respuesta": "Puertas con doble fondo" },
+      { "respuesta": "Puertas con marcas de arreglos" },
+      { "respuesta": "Puertas con alteraciones" }
+    ],
+    "sinonimos": ["Puerta exterior", "Puerta interior", "Puertas"]
+  },
+  "PANEL LATERAL": {
+    "respuestas": [
+      { "respuesta": "Panel con deficiencias estructurales" },
+      { "respuesta": "Panel con modificaciones" }
+    ],
+    "sinonimos": ["Panel lateral", "Panel del costado"]
+  },
+  "PARED FRONTAL": {
+    "respuestas": [
+      { "respuesta": "Panel con deficiencias estructurales" },
+      { "respuesta": "Panel con modificaciones" }
+    ],
+    "sinonimos": ["Pared frontal", "Panel frontal"]
+  },
+  "PARED LATERAL IZQUIERDA": {
+    "respuestas": [
+      { "respuesta": "Panel con deficiencias estructurales" },
+      { "respuesta": "Panel con modificaciones" }
+    ],
+    "sinonimos": ["Pared lateral izquierda", "Panel lateral izquierdo"]
+  },
+  "TECHOS INTERNOS Y EXTERNOS": {
+    "respuestas": [
+      { "respuesta": "Techo disparejo" },
+      { "respuesta": "Techo con inclinaciones" },
+      { "respuesta": "Techo con arreglos" },
+      { "respuesta": "Techo con danos estructurales" }
+    ],
+    "sinonimos": ["Techo interno", "Techo externo", "Techo"]
+  },
+  "AGRICOLA": {
+    "respuestas": [
+      { "respuesta": "Animales encontrados" },
+      { "respuesta": "Insectos o invertebrados encontrados" },
+      { "respuesta": "Material organico de origen animal" },
+      { "respuesta": "Plantas o productos vegetales" },
+      { "respuesta": "Material organico de origen vegetal" }
+    ],
+    "sinonimos": ["Agricola", "Material agricola"]
+  },
+  "CHASIS": {
+    "respuestas": [
+      { "respuesta": "Chasis con soldadura" },
+      { "respuesta": "Chasis con parches" },
+      { "respuesta": "Chasis con perforaciones" },
+      { "respuesta": "Chasis con grietas" }
+    ],
+    "sinonimos": ["Estructura", "Chasis"]
+  },
+  "SISTEMA DE BARRAS": {
+    "respuestas": [
+      { "respuesta": "Sistema de barras con danos" },
+      { "respuesta": "Sistema de barras con alteraciones" },
+      { "respuesta": "Sistema de barras con articulo sospechoso oculto" }
+    ],
+    "sinonimos": ["Barras", "Sistema de barras"]
+  },
+  "BISAGRAS": {
+    "respuestas": [
+      { "respuesta": "Bisagras con soldadura" },
+      { "respuesta": "Bisagras mal soldadas" },
+      { "respuesta": "Porta bisagras con soldadura" },
+      { "respuesta": "Pernos sin asegurar" }
+    ],
+    "sinonimos": ["Bisagras", "Porta bisagras"]
+  },
+  "HERRAJES": {
+    "respuestas": [
+      { "respuesta": "Herrajes con tuercas flojas" },
+      { "respuesta": "Herrajes con tuercas faltantes" },
+      { "respuesta": "Herrajes con tuercas mal ajustadas" }
+    ],
+    "sinonimos": ["Herrajes", "Accesorios"]
+  },
+  "DIMENSIONES": {
+    "respuestas": [
+      { "respuesta": "Dimensiones no coinciden" },
+      { "respuesta": "Dimensiones no visibles" },
+      { "respuesta": "Dimensiones irregulares" }
+    ],
+    "sinonimos": ["Largo", "Ancho", "Alto"]
+  }
+}
