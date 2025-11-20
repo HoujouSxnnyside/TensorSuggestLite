@@ -1,0 +1,90 @@
+/* Light red palette - clearer, warmer */
+QWidget {
+    background: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 #fff8f8, stop:1 #fff6f6);
+    color: #3a0b0b;
+}
+
+/* App bar  */
+QWidget#appBar {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #ff6b6b, stop:1 #c62828);
+    color: #ffffff;
+    padding: 10px 14px;
+}
+QLabel#appTitle {
+    background: transparent;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 18px;
+    padding-left: 6px;
+}
+
+/* Theme toggle (icon-only, circular) */
+QToolButton#themeToggle {
+    border-radius: 16px;
+    min-width: 36px;
+    min-height: 36px;
+    background: rgba(0,0,0,0.04);
+    border: 1px solid rgba(0,0,0,0.06);
+}
+QToolButton#themeToggle:hover { background: rgba(0,0,0,0.06); }
+
+/* Neumorphic-like buttons (light variant) */
+QPushButton#neumoButton {
+    border-radius: 12px;
+    padding: 8px 14px;
+    border: none;
+    background: qlineargradient(x1:0,y1:0,x2:0,y2:1, stop:0 #ffffff, stop:1 #ffdede);
+    color: #5a0b0b;
+}
+QPushButton#neumoButton:pressed { background: #ffdede; }
+
+/* Disabled button state */
+QPushButton#neumoButton:disabled {
+    background: #fff0f0;
+    color: #8c6b6b; /* muted text */
+    border: 1px solid #f5dada;
+    opacity: 0.6;
+}
+
+QPushButton#neumoButton[enabled="false"] {
+    background: #fff0f0;
+    color: #8c6b6b;
+}
+
+/* explicit enabled state */
+QPushButton#neumoButton:enabled {
+    border: 1px solid rgba(198,30,30,0.12);
+    color: #5a0b0b;
+}
+
+/* Inputs */
+QLineEdit#pathField {
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid #fdeaea;
+    background: #ffffff;
+    color: #3a0b0b;
+}
+QTextEdit#consoleBox {
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid #fdeaea;
+    background: #fffdfc;
+    color: #3a0b0b;
+}
+
+/* Progress */
+QProgressBar#progressBar {
+    border-radius: 9px;
+    background: #fff0f0;
+    color: #7a0b0b;
+    text-align: center;
+    height: 18px;
+}
+QProgressBar#progressBar::chunk {
+    border-radius: 9px;
+    background: qlineargradient(x1:0,y1:0,x2:1,y2:0, stop:0 #ff7b7b, stop:1 #c62828);
+}
+
+/* small polish */
+QLabel, QPushButton, QLineEdit, QTextEdit { font-family: "Segoe UI", Arial, sans-serif; }

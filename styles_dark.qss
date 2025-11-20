@@ -1,0 +1,93 @@
+/* Dark red palette - deep, high-contrast */
+QWidget {
+    background: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 #0b0a0b, stop:1 #151212);
+    color: #f7eaea;
+}
+
+/* App bar */
+QWidget#appBar {
+    background: qlineargradient(x1:0,y1:0,x2:1,y2:0, stop:0 #7f1d1d, stop:1 #5a1313);
+    color: #fff7f7;
+    padding: 10px 14px;
+}
+QLabel#appTitle {
+    background: transparent;
+    color: #fff7f7;
+    font-weight: 700;
+    font-size: 18px;
+    padding-left: 6px;
+}
+
+/* Theme toggle (icon-only, circular) */
+QToolButton#themeToggle {
+    border-radius: 16px;
+    min-width: 36px;
+    min-height: 36px;
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.03);
+}
+QToolButton#themeToggle:hover { background: rgba(255,255,255,0.06); }
+
+/* Neumorphic-like buttons */
+QPushButton#neumoButton {
+    border-radius: 12px;
+    padding: 8px 14px;
+    border: none;
+    /* brighter, contrasty enabled appearance */
+    background: qlineargradient(x1:0,y1:0,x2:0,y2:1, stop:0 #5a1515, stop:1 #7a1b1b);
+    color: #fff5f5;
+}
+QPushButton#neumoButton:pressed { background: #9a1b1b; }
+
+/* Disabled button state */
+QPushButton#neumoButton:disabled {
+    background: #241212; /* darker muted */
+    color: #6b5252; /* muted text */
+    border: 1px solid #1a0d0d;
+    opacity: 0.5;
+}
+
+/* make disabled look consistent for export button (also neumoButton) */
+QPushButton#neumoButton[enabled="false"] {
+    background: #241212;
+    color: #6b5252;
+}
+
+/* Explicit enabled state to ensure visual difference */
+QPushButton#neumoButton:enabled {
+    /* slight inner glow to make enabled buttons pop */
+    border: 1px solid rgba(255,110,110,0.15);
+    color: #fff7f7;
+}
+
+/* Inputs */
+QLineEdit#pathField {
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid #2b1a1a;
+    background: #0f0d0d;
+    color: #f1dfdf;
+}
+QTextEdit#consoleBox {
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid #2b1a1a;
+    background: #0f0d0d;
+    color: #f1dfdf;
+}
+
+/* Progress */
+QProgressBar#progressBar {
+    border-radius: 9px;
+    background: #241212;
+    color: #ffdede;
+    text-align: center;
+    height: 18px;
+}
+QProgressBar#progressBar::chunk {
+    border-radius: 9px;
+    background: qlineargradient(x1:0,y1:0,x2:1,y2:0, stop:0 #ff6b6b, stop:1 #b71c1c);
+}
+
+/* small polish */
+QLabel, QPushButton, QLineEdit, QTextEdit { font-family: "Segoe UI", Arial, sans-serif; }

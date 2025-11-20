@@ -1,1 +1,6 @@
 /.idea/
+/.venv/
+
+# Ignorar carpetas de salida/artefactos y pruebas (en raíz y en subdirectorios)
+/generated/
+**/generated/

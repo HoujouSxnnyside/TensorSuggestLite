@@ -1,0 +1,107 @@
+SPDX-License-Identifier: CR-NC-1.0
+
+CoreRed Public Non-Commercial License (CR-NC-1.0)
+
+ENGLISH
+-------
+Copyright (c) 2025 CoreRed Project
+
+Permission is hereby granted, free of charge, to any person or entity obtaining a copy
+of this software and associated documentation files (the "Software"), to use, copy,
+modify, merge, publish, distribute, and sublicense the Software, subject to the
+following conditions:
+
+1. Non-Commercial Distribution: Redistribution or distribution of derivative works
+   (modified versions) of the Software for direct sale, resale, or other commercial
+   exploitation is NOT permitted. Distributions that are offered for free, or which
+   are part of a service that does not charge for the redistribution itself, are
+   permitted.
+
+2. Attribution Recommended: It is recommended (but not mandatory) that derivative
+   works and distributions give credit to the CoreRed Project by including a
+   short acknowledgment such as "Based on TensorSuggestorLite by CoreRed Project"
+   in documentation or release notes.
+
+3. Models and Outputs: Any models, trained weights, datasets, tokenizers, label
+   encoders, or other artifacts produced by running the Software are the sole
+   property of the person or entity that trained or created them, and are NOT
+   claimed by CoreRed Project. CoreRed makes no claim of ownership over user-
+   generated models or data artifacts.
+
+4. No Warranty: THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+   EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+   MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO
+   EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES
+   OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+   ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+   DEALINGS IN THE SOFTWARE.
+
+5. Termination: This license is automatically terminated if the licensee breaches
+   clause 1 (i.e., engages in the sale of derivative distributions). Termination
+   does not affect rights to copies of the Software distributed prior to the
+   breach by third parties.
+
+6. Sublicensing: You may sublicense the Software only under terms consistent with
+   this license (i.e., any sublicenses must preserve the non-commercial clause).
+
+7. Governing Law: This license is governed by and construed in accordance with
+   the laws of the jurisdiction where CoreRed Project is established, without
+   regard to conflict of law principles.
+
+If you require a different license (for example, to allow commercial derivatives)
+please contact the copyright holder (CoreRed Project) to discuss licensing options.
+
+---
+
+ESPAÑOL
+-------
+Copyright (c) 2025 CoreRed Project
+
+Permiso: Por la presente se concede permiso, sin cargo, a cualquier persona o
+entidad que obtenga una copia de este software y los archivos de documentación
+asociados (el "Software"), para usar, copiar, modificar, fusionar, publicar,
+redistribuir y sublicenciar el Software, con sujeción a las siguientes
+condiciones:
+
+1. Distribución no comercial: La redistribución o distribución de obras derivadas
+   (versiones modificadas) del Software para venta directa, reventa u otra
+   explotación comercial NO está permitida. Están permitidas las distribuciones
+   que se ofrecen de forma gratuita, o que formen parte de un servicio que no
+   cobre por la redistribución en sí.
+
+2. Atribución recomendada: Se recomienda (pero no es obligatorio) que las obras
+   derivadas y las redistribuciones acrediten al CoreRed Project incluyendo un
+   reconocimiento breve como "Basado en TensorSuggestorLite de CoreRed Project"
+   en la documentación o notas de la versión.
+
+3. Modelos y salidas: Cualquier modelo, pesos entrenados, conjuntos de datos,
+   tokenizadores, codificadores de etiquetas u otros artefactos producidos por
+   la ejecución del Software son propiedad exclusiva de la persona o entidad
+   que los entrene o cree, y NO pertenecen al CoreRed Project. CoreRed no
+   reclama propiedad sobre los modelos o artefactos generados por el usuario.
+
+4. Ausencia de garantía: EL SOFTWARE SE PROPORCIONA "TAL CUAL", SIN GARANTÍA DE
+   NINGÚN TIPO, EXPRESA O IMPLÍCITA, INCLUYENDO PERO NO LIMITADO A GARANTÍAS DE
+   COMERCIABILIDAD, IDONEIDAD PARA UN PROPÓSITO PARTICULAR Y NO INFRACCIÓN. EN
+   NINGÚN CASO LOS AUTORES O TITULARES DE LOS DERECHOS DE AUTOR SERÁN
+   RESPONSABLES DE NINGUNA RECLAMACIÓN, DAÑOS U OTRA RESPONSABILIDAD, YA SEA EN
+   UNA ACCIÓN CONTRACTUAL, AGRAVIO O DE OTRA NATURALEZA, QUE SURJA DE, O EN
+   CONEXIÓN CON, EL SOFTWARE O EL USO U OTROS TRATOS CON EL SOFTWARE.
+
+5. Terminación: Esta licencia se termina automáticamente si el licenciatario
+   incumple la cláusula 1 (es decir, participa en la venta de distribuciones
+   derivadas). La terminación no afecta los derechos sobre copias del Software
+   distribuidas antes del incumplimiento por terceros.
+
+6. Sublicencia: Puedes sublicenciar el Software únicamente bajo términos que
+   sean compatibles con esta licencia (es decir, cualquier sublicencia debe
+   preservar la cláusula de no comercialidad).
+
+7. Ley aplicable: Esta licencia se rige e interpreta de conformidad con las
+   leyes de la jurisdicción en la que esté establecido CoreRed Project, sin
+   atender a sus normas sobre conflictos de leyes.
+
+Si necesitas una licencia diferente (por ejemplo, para permitir derivados
+comerciales), contacta al titular de los derechos de autor (CoreRed Project)
+para discutir opciones de licencia.
+

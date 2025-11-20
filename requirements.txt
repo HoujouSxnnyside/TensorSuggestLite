@@ -2,3 +2,5 @@ tensorflow
 numpy
 scikit-learn
 PyQt6
+PyYAML
+toml
