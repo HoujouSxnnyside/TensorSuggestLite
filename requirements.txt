@@ -1,4 +1,4 @@
 tensorflow
 numpy
 scikit-learn
-Keras-Preprocessing
+PyQt6

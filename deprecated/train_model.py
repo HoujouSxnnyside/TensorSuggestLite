@@ -5,7 +5,7 @@ from sklearn.utils import class_weight
 import numpy as np
 
 # Cargar datos desde el archivo JSON
-with open('question_data.json', 'r', encoding='utf-8') as f:
+with open('../question_data.json', 'r', encoding='utf-8') as f:
     data = json.load(f)
 
 # Preparar preguntas y categorías

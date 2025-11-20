@@ -1,7 +1,7 @@
 import json
 
 # Cargar question_data
-with open('question_data.json', 'r', encoding='utf-8') as f:
+with open('../question_data.json', 'r', encoding='utf-8') as f:
     question_data = json.load(f)
 
 # Cargar label_encoder

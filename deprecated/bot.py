@@ -18,7 +18,7 @@ with open('tokenizer.json', 'r', encoding='utf-8') as f:
 tokenizer = tf.keras.preprocessing.text.tokenizer_from_json(json.dumps(tokenizer_config))
 
 # Cargar las respuestas predefinidas desde el archivo JSON
-with open('question_data.json', 'r', encoding='utf-8') as f:
+with open('../question_data.json', 'r', encoding='utf-8') as f:
     question_data = json.load(f)
 
 # Crear un diccionario de respuestas basado en label_encoder.json
