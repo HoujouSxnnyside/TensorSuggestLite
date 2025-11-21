@@ -7,7 +7,7 @@
 [![Dependencies](https://img.shields.io/badge/dependencies-tensorflow%20%7C%20PyQt6-blue.svg)](#)
 [![License](https://img.shields.io/badge/license-CR--NC--1.0-lightgrey.svg)](LICENSE)
 
-TensorSuggestorLite es una utilidad ligera para interpretar datos de configuración (JSON, TOML, YAML) y entrenar un clasificador de texto simple a partir de esos ficheros. Proporciona intérpretes por formato, un entrenador que exporta artefactos (tokenizer, modelo Keras y label encoder) y una conversión a TFLite para desplegar en dispositivos embebidos.
+TensorSuggestLite es una utilidad ligera para interpretar datos de configuración (JSON, TOML, YAML) y entrenar un clasificador de texto simple a partir de esos ficheros. Proporciona intérpretes por formato, un entrenador que exporta artefactos (tokenizer, modelo Keras y label encoder) y una conversión a TFLite para desplegar en dispositivos embebidos.
 
 Características principales
 -------------------------
@@ -92,7 +92,7 @@ Estructura del proyecto
 Resumen de los archivos y carpetas más relevantes:
 
 ```
-TensorSuggestorLite/
+/
 ├── tensorsuggestlite.py        # Punto de entrada (GUI y orquestador)
 ├── requirements.txt            # Dependencias recomendadas
 ├── README.md                   # (este archivo)
