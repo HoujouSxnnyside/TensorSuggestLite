@@ -178,3 +178,52 @@ Contacto
 --------
 
 Si necesitas soporte o quieres colaborar, abre un issue en el repositorio o contacta al mantenedor principal del proyecto [Houjou Sxnnyside](https://github.com/HoujouSxnnyside) del equipo CoreRed Project.
+
+## Empaquetado para macOS (.app) usando PyInstaller
+
+Se incluye soporte para generar una aplicación macOS (`.app`) con PyInstaller. Hay un script reproducible en la raíz del proyecto:
+
+- `build_mac_app.sh` — crea (opcional) un virtualenv, instala PyInstaller y construye la app usando `build/TensorSuggestLite.spec`.
+
+Pasos rápidos (recomendado):
+
+1. Asegúrate de tener Xcode Command Line Tools instaladas y, opcionalmente, `cairosvg` para generar el icono `.icns` desde SVG:
+
+```bash
+xcode-select --install
+# opcional: para convertir SVG a PNG/ICNS
+pip install cairosvg
+```
+
+2. Ejecuta el script para crear la app (por defecto crea un virtualenv de build y NO instala TensorFlow):
+
+```bash
+chmod +x build_mac_app.sh
+./build_mac_app.sh
+```
+
+- Si quieres usar el entorno actual (no crear un venv): `./build_mac_app.sh --no-venv`
+- Si quieres forzar la instalación de TensorFlow y empaquetarlo (advertencia: incrementa mucho el tamaño): `./build_mac_app.sh --with-tf`
+
+Resultado:
+
+- La app se generará en `dist/TensorSuggestLite/TensorSuggestLite.app`.
+- Abrela con Finder o desde terminal:
+
+```bash
+open dist/TensorSuggestLite/TensorSuggestLite.app
+# o para ver logs/errores
+./dist/TensorSuggestLite/TensorSuggestLite.app/Contents/MacOS/TensorSuggestLite
+```
+
+Notas importantes:
+
+- Por defecto el build NO incluye TensorFlow (recomendado). Incluir TensorFlow hace que la app pese mucho y requiere compatibilidad de arquitectura (x86_64 vs arm64).
+- Los recursos estáticos incluidos: `icons/`, `styles_dark.qss`, `styles_light.qss`.
+- No se recomienda escribir dentro del bundle `.app` en tiempo de ejecución. Los modelos/artefactos generados deben guardarse en `~/Library/Application Support/TensorSuggestLite/` o en `generated/` fuera del bundle. Si necesitas que la app escriba modelos, considera ajustar rutas en los `trainer.py`.
+- Para distribución pública necesitarás firmar (`codesign`) y notarizar la app (Apple Developer ID). Eso no está automatizado en el script.
+
+Errores comunes y soluciones:
+
+- "missing Qt platform plugin" — asegúrate de ejecutar el script en un entorno que tenga PyQt6 instalado; el spec intenta incluir los plugins `platforms` de PyQt6.
+- Problemas por falta de módulos (ImportError) — revisa la salida de PyInstaller y añade `hiddenimports` en el spec si es necesario.
